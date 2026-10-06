@@ -1,0 +1,5 @@
+# Line endings: batch files need CRLF; third-party UE4SS files are kept byte-exact.
+* text=auto
+*.cmd text eol=crlf
+*.dll binary
+files/ue4ss/** -text
